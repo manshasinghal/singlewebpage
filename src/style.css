@@ -1,0 +1,67 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.date-input {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+.emoji-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.emoji-btn {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+}
+
+.emoji-btn:hover:not(:disabled) {
+  background-color: #ddd;
+}
+
+.emoji-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.emoji-btn.selected {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+}
